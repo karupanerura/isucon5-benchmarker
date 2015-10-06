@@ -69,6 +69,9 @@ sub run_benchmark {
     return $JSON->decode($res);
 }
 
+## copied from https://github.com/isucon/isucon5-qualify/blob/master/eventapp/lib/score.rb and arranged
+## MIT Licence: https://github.com/isucon/isucon5-qualify#license
+## Copyright (c) 2015 tagomoris, kamipo, najeira, hkurokawa, making, xerial
 sub calculate_score {
     my $res = shift;
     my $base_score  = $res->{responses}->{success}    + $res->{responses}->{redirect}  * 0.1;
