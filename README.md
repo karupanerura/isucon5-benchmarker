@@ -34,7 +34,16 @@ JDK8なら確実にうごくけどようわからんです。
 
 # 注意
 
-`bench.jar` および `testsets.json` については[公式のリポジトリ](https://github.com/isucon/isucon5-qualify)から独自にビルドあるいはコピーしたものです。  
-これらの著作権はぼくにはありません。問題があれば削除あるいは同梱方法などを変更する可能性があります。  
 `bench.jar` は僕の手元でビルドした、[fatjarしたオリジナルのベンチマーカー](https://github.com/karupanerura/isucon5-qualify/tree/fatjar)です。  
 攻撃コードなどは混入させていませんが、心配な方は元のソースコードを読んだ上で自前でビルドしたfatjarを使うことをおすすめします。
+
+# Licence / Copyright
+
+## bench.jar, testsets.json
+
+[公式のリポジトリ](https://github.com/isucon/isucon5-qualify)から独自にビルドあるいはコピーしたものです。
+https://github.com/isucon/isucon5-qualify#license
+
+## bench.pl
+
+http://karupanerura.mit-license.org/
