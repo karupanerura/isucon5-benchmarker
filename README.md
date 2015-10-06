@@ -41,7 +41,7 @@ JDK8なら確実にうごくけどようわからんです。
 
 ## bench.jar, testsets.json
 
-[公式のリポジトリ](https://github.com/isucon/isucon5-qualify)から独自にビルドあるいはコピーしたものです。
+[公式のリポジトリ](https://github.com/isucon/isucon5-qualify)から独自にビルドあるいはコピーし、MITライセンスに則り再配布しています。  
 https://github.com/isucon/isucon5-qualify#license
 
 ## bench.pl
